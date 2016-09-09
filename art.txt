@@ -1,5 +1,5 @@
 [Adblock Plus 2.1]
-! Checksum: nq3r9RgzOfByDJ8HNKBcdQ
+! Checksum: Utc2Ou5x5zL/71PJw9up/A
 ! [元素隐藏规则]/elemhide
 bbs.pinggu.org##IMG[src="static/image/common/logo.gif"]
 bbs.pinggu.org##IMG[src="static/new/kctj/kechengtuijian_small.gif"]
@@ -200,6 +200,7 @@ quote.eastmoney.com##.footer2016
 pedaily.cn##.float_box
 pedaily.cn##[id*="ad_*"]
 pedaily.cn##.adver_show
+eastmoney.com##.footer
 ! [广告屏蔽规则]/blocking
 |http://img.taoguba.com.cn/images/jc.gif
 |http://img.taoguba.com.cn/images/bjt.gif
@@ -360,6 +361,7 @@ feng.com##.wea_d_panel_980
 |http://g1.dfcfw.com/g2/*.jpg
 |http://pic.pedaily.cn/201608/banner/*.jpg
 ||static.pedaily.cn/images/*
+|http://hqres.eastmoney.com/EMCommon/headbiggg_hq.js
 ! [例外规则]/whitelist
 ~stockstar.cn,~stockstar.com##.adlist
 @@||ibsbjstar.ccb.com.cn^$document
