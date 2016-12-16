@@ -1,5 +1,5 @@
-[Adblock Plus 2.1]
-! Checksum: Utc2Ou5x5zL/71PJw9up/A
+[Adblock Plus 2.8]
+! Checksum: W6BuckflGLryUGo1xQKUzQ
 ! [元素隐藏规则]/elemhide
 bbs.pinggu.org##IMG[src="static/image/common/logo.gif"]
 bbs.pinggu.org##IMG[src="static/new/kctj/kechengtuijian_small.gif"]
@@ -129,7 +129,6 @@ guba.eastmoney.com###footer
 club1.kdnet.net##.header.clearfix
 news.sina.com.cn##.side-btns-2w
 bbs.pinggu.org##A[href="http://www.peixun.net/misc/app.html"]
-cailianpress.com##.pconly
 cailianpress.com##.box.sns
 cailianpress.com##.box.mt20.ad.AD-3
 cailianpress.com##.banner.AD-1
@@ -201,6 +200,8 @@ pedaily.cn##.float_box
 pedaily.cn##[id*="ad_*"]
 pedaily.cn##.adver_show
 eastmoney.com##.footer
+cfi.net.cn##TABLE[style="width:740px"]
+bbs.pinggu.org###\5f _lpform_password3_L0X3K_icon
 ! [广告屏蔽规则]/blocking
 |http://img.taoguba.com.cn/images/jc.gif
 |http://img.taoguba.com.cn/images/bjt.gif
@@ -362,6 +363,9 @@ feng.com##.wea_d_panel_980
 |http://pic.pedaily.cn/201608/banner/*.jpg
 ||static.pedaily.cn/images/*
 |http://hqres.eastmoney.com/EMCommon/headbiggg_hq.js
+|http://www.cfi.net.cn/pic/hbjb.png
+|http://img.youtube.com/*
+|http://www.nxny.com/images/banner/myad.gif
 ! [例外规则]/whitelist
 ~stockstar.cn,~stockstar.com##.adlist
 @@||ibsbjstar.ccb.com.cn^$document
@@ -415,6 +419,9 @@ feng.com##.wea_d_panel_980
 @@||i.gw.com.cn^$document
 @@||market.alitrip.com^$document
 @@||189.cn^$document
+@@||10086.cn^$document
+@@||pan.baidu.com^$document
+@@||xiami.com^$document
 ! [Simple List]
 !
 ! License: MIT
