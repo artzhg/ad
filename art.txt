@@ -1,5 +1,5 @@
 [Adblock Plus 2.8]
-! Checksum: W6BuckflGLryUGo1xQKUzQ
+! Checksum: ZcoDGRE2a8msna66M1BdnA
 ! [元素隐藏规则]/elemhide
 bbs.pinggu.org##IMG[src="static/image/common/logo.gif"]
 bbs.pinggu.org##IMG[src="static/new/kctj/kechengtuijian_small.gif"]
@@ -202,6 +202,21 @@ pedaily.cn##.adver_show
 eastmoney.com##.footer
 cfi.net.cn##TABLE[style="width:740px"]
 bbs.pinggu.org###\5f _lpform_password3_L0X3K_icon
+weibo.com##.gn_topmenulist_tips
+bbs.pinggu.org##.peixunopen2
+174.127.195.166###rules
+174.127.195.166###recommendlist
+174.127.195.166##FONT[size="5"]
+174.127.195.166##A[href="http://www.9882017.com/"]
+174.127.195.166##A[href="http://www.xsj855.com/?a=68824"]
+174.127.195.166##A[href="http://www.4499vns.com/?a=123"]
+174.127.195.166##A[href="http://amblrgg.co/439123.htm"]
+174.127.195.166##A[href="http://www.1495027.com/javcn.html"]
+174.127.195.166##A[href="http://w55t.com/"]
+174.127.195.166##A[href="http://www.8757p.cc/?p=895"]
+174.127.195.166##A[href="http://www.f22.cc/?p=5793"]
+174.127.195.166##A[href="http://www.jxf75.com/bttcl.html"]
+174.127.195.166###header
 ! [广告屏蔽规则]/blocking
 |http://img.taoguba.com.cn/images/jc.gif
 |http://img.taoguba.com.cn/images/bjt.gif
@@ -366,6 +381,9 @@ feng.com##.wea_d_panel_980
 |http://www.cfi.net.cn/pic/hbjb.png
 |http://img.youtube.com/*
 |http://www.nxny.com/images/banner/myad.gif
+|http://dio66.net/images/*.gif
+|http://img588.net/images/*.gif
+||174.127.195.166/bbs/images/green/logo.gif
 ! [例外规则]/whitelist
 ~stockstar.cn,~stockstar.com##.adlist
 @@||ibsbjstar.ccb.com.cn^$document
@@ -422,6 +440,8 @@ feng.com##.wea_d_panel_980
 @@||10086.cn^$document
 @@||pan.baidu.com^$document
 @@||xiami.com^$document
+@@||userstyles.org^$document
+@@||192.168.1.1^$document
 ! [Simple List]
 !
 ! License: MIT
