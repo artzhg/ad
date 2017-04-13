@@ -1,5 +1,5 @@
 [Adblock Plus 2.8]
-! Checksum: ZcoDGRE2a8msna66M1BdnA
+! Checksum: fLSGBOZSd4Su5ndXA5e4Fw
 ! [元素隐藏规则]/elemhide
 bbs.pinggu.org##IMG[src="static/image/common/logo.gif"]
 bbs.pinggu.org##IMG[src="static/new/kctj/kechengtuijian_small.gif"]
@@ -442,6 +442,7 @@ feng.com##.wea_d_panel_980
 @@||xiami.com^$document
 @@||userstyles.org^$document
 @@||192.168.1.1^$document
+@@||creditcard.ccb.com^$document
 ! [Simple List]
 !
 ! License: MIT
