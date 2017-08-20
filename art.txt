@@ -1,5 +1,5 @@
 [Adblock Plus 2.8]
-! Checksum: fLSGBOZSd4Su5ndXA5e4Fw
+! Checksum: eO9z0AQDi0AV8bmYZgydUw
 ! [元素隐藏规则]/elemhide
 bbs.pinggu.org##IMG[src="static/image/common/logo.gif"]
 bbs.pinggu.org##IMG[src="static/new/kctj/kechengtuijian_small.gif"]
@@ -217,6 +217,11 @@ bbs.pinggu.org##.peixunopen2
 174.127.195.166##A[href="http://www.f22.cc/?p=5793"]
 174.127.195.166##A[href="http://www.jxf75.com/bttcl.html"]
 174.127.195.166###header
+55188.com##.gg_head_m
+55188.com##.rulescont
+55188.com##H3
+55188.com###header
+ikanyanbao.com##P[style="line-height:150%"]
 ! [广告屏蔽规则]/blocking
 |http://img.taoguba.com.cn/images/jc.gif
 |http://img.taoguba.com.cn/images/bjt.gif
@@ -384,6 +389,8 @@ feng.com##.wea_d_panel_980
 |http://dio66.net/images/*.gif
 |http://img588.net/images/*.gif
 ||174.127.195.166/bbs/images/green/logo.gif
+||kanyanbao.com/newsadapter/cjnews/*
+|https://www.kanyanbao.com/newsadapter/cjnews/news_file.htm?id=*&cover_image=true&size=130
 ! [例外规则]/whitelist
 ~stockstar.cn,~stockstar.com##.adlist
 @@||ibsbjstar.ccb.com.cn^$document
@@ -443,6 +450,9 @@ feng.com##.wea_d_panel_980
 @@||userstyles.org^$document
 @@||192.168.1.1^$document
 @@||creditcard.ccb.com^$document
+@@||asus.com.cn^$document
+@@||fengbuy.com^$document
+@@||weiyun.com^$document
 ! [Simple List]
 !
 ! License: MIT
