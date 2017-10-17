@@ -1,5 +1,5 @@
 [Adblock Plus 2.8]
-! Checksum: eO9z0AQDi0AV8bmYZgydUw
+! Checksum: z+MteAMa5ZaE1lcQVOScnA
 ! [元素隐藏规则]/elemhide
 bbs.pinggu.org##IMG[src="static/image/common/logo.gif"]
 bbs.pinggu.org##IMG[src="static/new/kctj/kechengtuijian_small.gif"]
@@ -222,6 +222,10 @@ bbs.pinggu.org##.peixunopen2
 55188.com##H3
 55188.com###header
 ikanyanbao.com##P[style="line-height:150%"]
+cailianpress.com##.bannerShow
+cailianpress.com##DIV[style="width:1200px;height:150px;overflow:hidden;margin-top:25px;position:relative;margin-bottom:25px;"]
+ciccs.com.cn##IMG[src="/resources/images/home/gwms.png"]
+ciccs.com.cn##IMG[src="/resources/images/home/cicccollection.png"]
 ! [广告屏蔽规则]/blocking
 |http://img.taoguba.com.cn/images/jc.gif
 |http://img.taoguba.com.cn/images/bjt.gif
@@ -391,6 +395,11 @@ feng.com##.wea_d_panel_980
 ||174.127.195.166/bbs/images/green/logo.gif
 ||kanyanbao.com/newsadapter/cjnews/*
 |https://www.kanyanbao.com/newsadapter/cjnews/news_file.htm?id=*&cover_image=true&size=130
+||img.huafans.cn/data/attachment/portal/201704/19/*
+||image.cailianpress.com/cailianpress/default/20170712/*
+||image.cailianpress.com/cailianpress/default/20170630/*
+||image.cailianpress.com/images/*
+||cdnjs.cailianpress.com/images/site/*
 ! [例外规则]/whitelist
 ~stockstar.cn,~stockstar.com##.adlist
 @@||ibsbjstar.ccb.com.cn^$document
@@ -447,12 +456,14 @@ feng.com##.wea_d_panel_980
 @@||10086.cn^$document
 @@||pan.baidu.com^$document
 @@||xiami.com^$document
-@@||userstyles.org^$document
 @@||192.168.1.1^$document
 @@||creditcard.ccb.com^$document
 @@||asus.com.cn^$document
 @@||fengbuy.com^$document
 @@||weiyun.com^$document
+@@||vip.icbc.com.cn^$document
+@@||outlook.live.com^$document
+@@||bbs.zhiyoo.com^$document
 ! [Simple List]
 !
 ! License: MIT
