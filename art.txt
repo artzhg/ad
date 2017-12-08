@@ -1,5 +1,5 @@
 [Adblock Plus 2.8]
-! Checksum: z+MteAMa5ZaE1lcQVOScnA
+! Checksum: TU5cB05eLFDbOrS+6GiBmA
 ! [元素隐藏规则]/elemhide
 bbs.pinggu.org##IMG[src="static/image/common/logo.gif"]
 bbs.pinggu.org##IMG[src="static/new/kctj/kechengtuijian_small.gif"]
@@ -161,13 +161,13 @@ bbs.pinggu.org###sidelist
 tieba.baidu.com###plat_recom_carousel
 tieba.baidu.com##.card_head
 bbs.pinggu.org##.sidenav-img
+itdcw.com##DIV.footer-
 live.wallstreetcn.com##.wrapper
 board001.com##DIV#ad_text + * + * + * FONT[size="5"]:first-child
 cnbeta.com##DIV[style="display:block !important;padding:10px;margin:0 auto;text-align:center;max-width:980px;overflow:hidden"]
 stock.hexun.com##.gg2.mt8
 stock.hexun.com##.sideList
 stock.hexun.com##.side_logo
-stock.hexun.com###tonglan_*
 stock.hexun.com###rightbtn_1
 stock.hexun.com##.fl.headerL
 stock.hexun.com##.picTxtNav
@@ -226,6 +226,31 @@ cailianpress.com##.bannerShow
 cailianpress.com##DIV[style="width:1200px;height:150px;overflow:hidden;margin-top:25px;position:relative;margin-bottom:25px;"]
 ciccs.com.cn##IMG[src="/resources/images/home/gwms.png"]
 ciccs.com.cn##IMG[src="/resources/images/home/cicccollection.png"]
+taoguba.com.cn##.ad_span_tgb
+news.sina.com.cn###news_2016g20TopBar
+cailianpress.com##.wrap
+cailianpress.com##DIV[style="width:100%;height:140px;background:black;"]
+36kr.com##.partner-section
+36kr.com##.common-footer
+55188.com##IMG[src="http://zt.55188.com/2017-1111/images/alps-xiao.png"]
+55188.com##IMG[src="http://zt.55188.com/2017-1111/images/alps-da.png"]
+55188.com##.gg-btn
+55188.com##.m-gg
+55188.com##.next
+55188.com##.tip
+xincailiao.com##.advpic
+xincailiao.com##.mask_shadow
+yuncaijing.com##IMG[src="http://aliyun.yuncaijing.com/upload/2017-11-03/59fc65022a59d.png"]
+yuncaijing.com##SPAN[style="display:block;position: relative;width:100%;height:100%;background:#000;opacity:0.4;"]
+itdcw.com##.logoBar
+itdcw.com##[style="height:100px;"]
+itdcw.com##DIV[style="width:1000px; height:60px; margin-left:auto; margin-right:auto"]
+itdcw.com##.area[style="height:60px;"]
+itdcw.com##.h10
+itdcw.com##.media_logo.orgLink
+itdcw.com##DIV.footer
+itdcw.com##DIV.footer-itdcw
+itdcw.com##DIV#footer > DIV.row
 ! [广告屏蔽规则]/blocking
 |http://img.taoguba.com.cn/images/jc.gif
 |http://img.taoguba.com.cn/images/bjt.gif
@@ -400,6 +425,12 @@ feng.com##.wea_d_panel_980
 ||image.cailianpress.com/cailianpress/default/20170630/*
 ||image.cailianpress.com/images/*
 ||cdnjs.cailianpress.com/images/site/*
+||n.sinaimg.cn/news/643213b9/20171012/*
+|http://n.sinaimg.cn/news/643213b9/20171012/1_02.png
+|http://n.sinaimg.cn/news/home_bg_red/bg_1000.png
+||googletagservices.com/tag/js/*
+||gstatic.com/firebasejs/4.2.0/*
+|http://www.itdcw.com/uploads/allimg/*.png
 ! [例外规则]/whitelist
 ~stockstar.cn,~stockstar.com##.adlist
 @@||ibsbjstar.ccb.com.cn^$document
@@ -464,6 +495,7 @@ feng.com##.wea_d_panel_980
 @@||vip.icbc.com.cn^$document
 @@||outlook.live.com^$document
 @@||bbs.zhiyoo.com^$document
+@@|https://www.youtube.com/iframe_api
 ! [Simple List]
 !
 ! License: MIT
