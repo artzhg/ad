@@ -1,5 +1,5 @@
 [Adblock Plus 2.8]
-! Checksum: TU5cB05eLFDbOrS+6GiBmA
+! Checksum: cdaKXyi5Q+4v6kfFUI/6oQ
 ! [元素隐藏规则]/elemhide
 bbs.pinggu.org##IMG[src="static/image/common/logo.gif"]
 bbs.pinggu.org##IMG[src="static/new/kctj/kechengtuijian_small.gif"]
@@ -431,6 +431,7 @@ feng.com##.wea_d_panel_980
 ||googletagservices.com/tag/js/*
 ||gstatic.com/firebasejs/4.2.0/*
 |http://www.itdcw.com/uploads/allimg/*.png
+|http://aliyun.yuncaijing.com/upload/*.gif
 ! [例外规则]/whitelist
 ~stockstar.cn,~stockstar.com##.adlist
 @@||ibsbjstar.ccb.com.cn^$document
@@ -755,10 +756,6 @@ tieba.baidu.com###bdshare
 tieba.baidu.com###balv_mod>.ui_bubble_wrap
 tieba.baidu.com##.sign_title_text_bright
 tieba.baidu.com##.pre_icon_wrap
-!-- 百度晕
-pan.baidu.com,yun.baidu.com##.newhand-tips-dialog
-pan.baidu.com,yun.baidu.com##[data-key="AD"]
-pan.baidu.com,yun.baidu.com###share_aside>*:not(dl.property-list)
 !-- 加速度娘盘访问速度, 屏蔽非必须请求 √
 !||pan.baidu.com/disk/cmsdata?*
 ||pan.baidu.com/notice/*
