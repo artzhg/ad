@@ -120,7 +120,6 @@ douban.fm##.ch-list-wrapper>.chl_section:last-child
 ||1lo0.net^
 ||hz3137.com^
 ||cbsi.com.cn^
-||xcar.com.cn^
 ||tukj.net^
 ||unionbig.com^
 ||tianjimedia.com^
