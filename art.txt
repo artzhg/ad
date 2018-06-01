@@ -1,5 +1,5 @@
 [Adblock Plus 2.8]
-! Checksum: bu1wN2KloL6velmOWW0l5w
+! Checksum: H1DmdnOl3oDpJVUKotnftg
 ! [元素隐藏规则]/elemhide
 bbs.pinggu.org##IMG[src="static/image/common/logo.gif"]
 bbs.pinggu.org##IMG[src="static/new/kctj/kechengtuijian_small.gif"]
@@ -162,7 +162,6 @@ tieba.baidu.com##.card_banner
 bbs.feng.com##.store_products_wrap
 bbs.feng.com###footer
 bbs.feng.com###header
-cfi.net.cn##P
 cfi.net.cn##DIV[style="border-bottom:1px dotted rgb(100,100,100); height:2px"]
 addons.mozilla.org##.aux
 finance.ifeng.com###wx
@@ -247,6 +246,9 @@ tianqi.qq.com###ct-sponsors
 tianqi.qq.com###tcopyright
 tianqi.qq.com###ad-outer
 yuncaijing.com##IMG[src="http://aliyun.yuncaijing.com/upload/2017-12-07/5a2931d70ef0b.jpg"][style="width:100%;height:100%"]
+wowowo.me###rules
+news.sina.com.cn##.cNavLinks
+174.127.195.228###rules
 ! [广告屏蔽规则]/blocking
 |http://img.taoguba.com.cn/images/jc.gif
 |http://img.taoguba.com.cn/images/bjt.gif
@@ -424,6 +426,9 @@ feng.com##.wea_d_panel_980
 |http://aliyun.yuncaijing.com/upload/*.gif
 |http://mat1.gtimg.com/pingjs/ext2020/weather/2017/images/feedback-a703892efa.png
 ||cnjk.online/ad/*
+|http://wowowo.me/bbs/images/green/logo.gif
+|http://174.127.195.228/forum/images/green/logo.gif
+|http://www.cfi.net.cn/pic/cficback.jpg
 ! [例外规则]/whitelist
 ~stockstar.cn,~stockstar.com##.adlist
 @@||ibsbjstar.ccb.com.cn^$document
@@ -601,6 +606,10 @@ www.huijuzx.com###footer
 xueqiu.com##.footer
 ||img.pinggu.org/static/2015/images/jg-logo.png$image
 bbs.pinggu.org###cjxwwrapper
+wowowo.me###rules
+wowowo.me##font:nth-of-type(1) > [href="http://mo6699.net"]
+wowowo.me##[href="http://mws3032.tk"]
+wowowo.me##[href="http://zdpdfb.co/"]
 bbs.pinggu.org##.ziliao-box:nth-of-type(9)
 bbs.pinggu.org##.ziliao-box:nth-of-type(8)
 bbs.pinggu.org##.ziliao-box:nth-of-type(7)
@@ -679,3 +688,18 @@ guba.eastmoney.com##.footer2016
 guba.eastmoney.com###mainbody > div:nth-of-type(5)
 guba.eastmoney.com##div.gbgkbox:nth-of-type(6)
 guba.eastmoney.com##div.gbgkbox:nth-of-type(8)
+bbs.zhiyoo.com##.pbn.cl.bm_c
+bbs.zhiyoo.com###ft
+bbs.zhiyoo.com###diyfastposttop
+news.sina.com.cn###blk_cNav1_01 > .cNavLinks
+bbs.gfan.net.cn##.xg2.ptn
+bbs.gfan.net.cn##.pbn.cl.bm_c
+||image.gfan.com/static/image/gfan/gfan_png.png$image
+||image.gfan.com/static/image/gfan/weibo_sina.*$image
+||image.gfan.com/static/image/gfan/weibo_qq.png?v1$image
+bbs.gfan.net.cn##.gyyad
+||bbs.zhiyoo.com/static/image/common/newlogo.png$image
+bbs.zhiyoo.com##.tips_screen
+||cfi.cn/pic/ad_zcnx_200612_s.gif$image
+cfi.cn##[src="http://img.cfi.cn/pic/wfxxjb.png"]
+www.hao123.com##.s-sbg1.layout-container
