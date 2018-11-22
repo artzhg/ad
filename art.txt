@@ -1005,7 +1005,6 @@ www.55188.com###lxfuwu
 www.55188.com###footer
 xueqiu.com###footer
 guba.eastmoney.com##.footer2016
-guba.eastmoney.com###mainbody > div:nth-of-type(5)
 guba.eastmoney.com##div.gbgkbox:nth-of-type(6)
 guba.eastmoney.com##div.gbgkbox:nth-of-type(8)
 bbs.zhiyoo.com##.pbn.cl.bm_c
